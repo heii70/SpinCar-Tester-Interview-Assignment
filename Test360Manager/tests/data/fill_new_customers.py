@@ -44,4 +44,4 @@ def getNewCustomer():
     return next_customer.split(" ")
 
 
-print(getNewCustomer())
+#print(getNewCustomer())
