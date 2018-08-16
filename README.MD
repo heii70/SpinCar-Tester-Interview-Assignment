@@ -21,5 +21,5 @@ Run automation test:
 	navigate to "tests" folder
 	run "pytest -v"
 
-If an "import file mismatch" error occurs, run: "py.clean -p" and rerun test
+If an "import file mismatch" error occurs, run: "py.cleanup -p" and rerun test
 	

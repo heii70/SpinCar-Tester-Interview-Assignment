@@ -1,6 +1,4 @@
-2
-test_customer_3 test_folder_3
-test_customer_4 test_folder_4
+4
 test_customer_5 test_folder_5
 test_customer_6 test_folder_6
 test_customer_7 test_folder_7
