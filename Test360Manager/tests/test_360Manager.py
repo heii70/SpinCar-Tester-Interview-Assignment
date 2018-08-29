@@ -71,8 +71,6 @@ class Test360Manager:
             assets.wait.until(
                 EC.presence_of_element_located((By.ID, "navbar"))
             )
-        except AssertionError as e:
-            print(e)
         except (NoSuchElementException, TimeoutException) as e:
             print(e)
             assert 0
@@ -119,8 +117,6 @@ class Test360Manager:
             assets.wait.until(
                 EC.presence_of_element_located((By.XPATH, "//*[@id='content']/div/form[1]/input[@type='submit' and @value='Select Config']"))
             )
-        except AssertionError as e:
-            print(e)
         except (NoSuchElementException, TimeoutException) as e:
             print(e)
             assert 0
@@ -163,8 +159,6 @@ class Test360Manager:
             assert assets.driver.find_element_by_name("pano_max_size").get_attribute("value") == assets.pano_max_size
             assert assets.driver.find_element_by_name("vbwa_num_frames").get_attribute("value") == assets.vbwa_num_frames
             assert assets.driver.find_element_by_name("is_spin_customer").is_selected()
-        except AssertionError as e:
-            print(e)
         except (NoSuchElementException, TimeoutException) as e:
             print(e)
             assert 0
