@@ -13,7 +13,7 @@ Create virtual environment and install dependencies:
 	
 	open a terminal and navigate to the root of the work folder
 	run "python -m virtualenv venv"
-	run "./venv/Scripts/activate"
+	run "venv\Scripts\activate" (Windows) or "source venv/bin/activate" (Unix)
 
 	you should now be inside the virtual environment
 	run "pip install -r requirements.txt"
