@@ -9,4 +9,4 @@ pycmd==1.2
 pytest==3.7.1
 selenium==3.14.0
 six==1.11.0
-urllib3==1.23
+urllib3==1.26.5
